@@ -592,8 +592,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.9.1
-		UT = 475.30062866206822
-		activeVessel = 5
+		UT = 494.40062866205085
+		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
@@ -1210,12 +1210,12 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300814.87380426639
-				ECC = 0.99479857281689354
-				INC = 0.0093455207256597558
-				LPE = 269.44139295795492
-				LAN = 293.7487773909055
-				MNA = -3.1415925818359223
+				SMA = NaN
+				ECC = 1
+				INC = 90.096909913536891
+				LPE = 90
+				LAN = 293.33987823292591
+				MNA = 0
 				EPH = 475.30062866206822
 				REF = 1
 			}
@@ -1933,12 +1933,12 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300814.90680263453
-				ECC = 0.99479869733656479
-				INC = 0.0093907707001260436
-				LPE = 270.00012229892252
-				LAN = 293.19003650814426
-				MNA = 3.1415926528620521
+				SMA = NaN
+				ECC = 1
+				INC = 90.096909913536891
+				LPE = 90
+				LAN = 293.33987823292591
+				MNA = 0
 				EPH = 475.30062866206822
 				REF = 1
 			}
@@ -2081,6 +2081,12 @@ GAME
 			}
 			VESSELMODULES
 			{
+				FlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
 			}
 		}
 	}
